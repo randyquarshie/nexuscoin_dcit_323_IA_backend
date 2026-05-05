@@ -62,4 +62,5 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 NexusCoin API Server running on http://localhost:${PORT}`);
+  console.log(`📦 Deploy version: v4 - CORS fix applied`);
 });
